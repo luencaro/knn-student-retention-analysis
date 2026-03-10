@@ -1,8 +1,3 @@
-```{image} logo.png
-:width: 200px
-:align: center
-```
-
 # KNN — Análisis de Retención Estudiantil
 
 ```{admonition} Información del Curso
