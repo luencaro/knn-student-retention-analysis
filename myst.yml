@@ -1,0 +1,19 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: "KNN — Análisis de Retención Estudiantil"
+  description: "Modelo de K-Nearest Neighbors para predecir el abandono académico y estimar el rendimiento de estudiantes universitarios."
+  keywords:
+    - machine learning
+    - knn
+    - student retention
+    - dropout prediction
+  authors:
+    - name:
+        literal: luencaro
+  github: https://github.com/luencaro/knn-student-retention-analysis
+  toc:
+    - file: README.md
+    - file: knn-notebook.ipynb
+site:
+  template: book-theme
