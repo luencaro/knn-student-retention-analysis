@@ -1,14 +1,8 @@
 # KNN — Análisis de Retención Estudiantil
 
-```{admonition} Información del Curso
-:class: info
-
-| | |
-|---|---|
 | **Curso** | Machine Learning — NRC 1627 |
 | **Docente** | Lihki Rubio |
 | **Integrantes** | Luis Cabarcas · Natalia Frias · Luis Cantillo |
-```
 
 Modelo de **K-Nearest Neighbors** para predecir el abandono académico y el rendimiento de estudiantes universitarios, orientado a un sistema de **alerta temprana**.
 
