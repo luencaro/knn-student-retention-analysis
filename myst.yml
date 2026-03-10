@@ -9,11 +9,28 @@ project:
     - student retention
     - dropout prediction
   authors:
-    - name:
-        literal: luencaro
+    - name: Luis Cabarcas
+    - name: Natalia Frias
+    - name: Luis Cantillo
   github: https://github.com/luencaro/knn-student-retention-analysis
   toc:
     - file: README.md
-    - file: knn-notebook.ipynb
+    - title: Análisis
+      children:
+        - file: notebooks/01-eda.ipynb
+          title: Análisis Exploratorio (EDA)
+        - file: notebooks/02-preprocesamiento.ipynb
+          title: Preprocesamiento
+    - title: Modelado
+      children:
+        - file: notebooks/03-clasificacion.ipynb
+          title: KNN — Clasificación
+        - file: notebooks/04-regresion.ipynb
+          title: KNN — Regresión
+    - file: conclusiones.md
+      title: Conclusiones
 site:
   template: book-theme
+  options:
+    logo: logo.png
+    favicon: logo.png
